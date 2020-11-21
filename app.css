@@ -77,7 +77,7 @@ nav {
 .nav-list {
   width: 25rem;
   height: 100vh;
-  background-color: #d7d4ed;
+  background-color: rgba(24, 22, 31, 0.9);
   position: fixed;
   top: 0;
   right: -26rem;
@@ -106,7 +106,7 @@ nav {
 .nav-link {
   font-size: 1.6rem;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.7);
+  color: #fafafa;
 }
 
 /*hero*/
@@ -115,8 +115,8 @@ nav {
   height: 80vh;
   background: linear-gradient(
       135deg,
-      rgba(49, 24, 131, 0.9) 0%,
-      rgba(73, 56, 149, 0.8) 100%
+      rgba(24, 22, 31, 0.9) 0%,
+      rgba(197, 195, 206, 0.8) 100%
     ),
     url("images/header-bg.jpg") center no-repeat;
   background-size: cover;
@@ -226,8 +226,8 @@ nav {
   z-index: -1;
   background-image: linear-gradient(
     135deg,
-    rgba(49, 24, 131, 0.9) 0%,
-    rgba(73, 56, 149, 0.8) 100%
+    rgba(24, 22, 31, 0.9) 0%,
+    rgba(197, 195, 206, 0.8) 100%
   );
 }
 
@@ -261,8 +261,8 @@ nav {
   height: 80vh;
   background: linear-gradient(
       135deg,
-      rgba(49, 24, 131, 0.9) 0%,
-      rgba(73, 56, 149, 0.8) 100%
+      rgba(24, 22, 31, 0.9) 0%,
+      rgba(197, 195, 206, 0.8) 100%
     ),
     url("images/testimonials-bg.jpg") center no-repeat;
   background-size: cover;
@@ -298,11 +298,11 @@ nav {
 
 .testimonial-text-box i {
   position: absolute;
-  top: -8rem;
+  top: -5rem;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 8rem;
-  color: #eb648c;
+  font-size: 5rem;
+  color: #fafafa;
   opacity: 0.5;
   z-index: -1;
 }
