@@ -331,6 +331,8 @@ footer {
   background-color: #d7d4ed;
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100px !important;
 }
 
 /*Meida Query*/
@@ -438,4 +440,10 @@ footer {
   .hero {
     height: 75vh;
   }
+}
+
+/*google map*/
+
+.googlemap {
+  width: 100%;
 }
