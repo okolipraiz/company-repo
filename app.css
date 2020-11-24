@@ -200,13 +200,13 @@ nav {
 .activities-grid {
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   display: grid;
-  grid-gap: 4rem;
+  grid-gap: 3rem;
 }
 
 .activities-grid-item {
   height: 42rem;
   padding: 5rem;
-  margin: 10px;
+  margin: 5px;
   color: #fafafa;
   position: relative;
   display: flex;
@@ -214,6 +214,7 @@ nav {
   justify-content: center;
   cursor: pointer;
   z-index: 1;
+  border-radius: 5px;
 }
 
 .activities-grid-item::before {
@@ -229,6 +230,7 @@ nav {
     rgba(24, 22, 31, 0.9) 0%,
     rgba(197, 195, 206, 0.8) 100%
   );
+  border-radius: 5px;
 }
 
 .star-gazing {
