@@ -25,8 +25,8 @@ p {
 }
 
 img {
-  height: 35px;
-  width: 65px;
+  height: 29px;
+  width: 55px;
 }
 
 section {
@@ -296,6 +296,10 @@ nav {
   padding: 0 1.5rem;
   margin-bottom: 2rem;
   position: relative;
+}
+
+.testimonial-text-box p {
+  font-weight: bolder;
 }
 
 .testimonial-text-box i {
