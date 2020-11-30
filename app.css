@@ -57,6 +57,7 @@ nav {
   justify-content: space-between;
   padding: 1rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 1;
 }
 
 .nav-brand {
@@ -213,7 +214,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   cursor: pointer;
-  z-index: 1;
+  z-index: 0;
   border-radius: 5px;
 }
 
