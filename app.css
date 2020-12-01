@@ -10,6 +10,7 @@ html {
   font-family: "Nunito", sans-serif;
   font-size: 9px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -448,7 +449,9 @@ footer {
     height: 75vh;
   }
 }
-
+/* just to add space from the nav-bar to the element*/
+#target-services, #target-about, #target-booking, #target-map{
+padding: 1.2rem;
 /*google map*/
 
 .googlemap {
