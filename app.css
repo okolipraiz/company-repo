@@ -449,6 +449,7 @@ footer {
     height: 75vh;
   }
 }
+/* just to add space from the nav-bar to the element*/
 #target-services, #target-about, #target-booking, #target-map{
 padding: 1.2rem;
 /*google map*/
