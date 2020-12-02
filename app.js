@@ -10,3 +10,13 @@ selectElement('.open').addEventListener('click', () => {
 selectElement('.close').addEventListener('click', () => {
     selectElement('.nav-list').classList.remove('active');
 }) 
+
+//end function expression
+var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter =1;
+        }
+    }, 5000);
