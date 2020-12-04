@@ -207,17 +207,17 @@ nav {
 }
 
 .hover1:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
   border-radius: 5px;
 }
 
 .hover2:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
   border-radius: 5px;
 }
 
 .hover3:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
 }
 
 .activities-grid-item {
