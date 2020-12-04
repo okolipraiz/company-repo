@@ -206,6 +206,20 @@ nav {
   grid-gap: 3rem;
 }
 
+.hover1:hover {
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+.hover2:hover {
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+.hover3:hover {
+  transform: scale(1.1);
+}
+
 .activities-grid-item {
   height: 42rem;
   padding: 5rem;
@@ -463,54 +477,4 @@ footer {
   width: 100%;
   position: relative;
   top: 0px;
-}
-
-#slider {
-  overflow: hidden;
-}
-
-#slider {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  padding: 0;
-  animation: 20s slider infinite;
-  position: relative;
-  top: 20px;
-}
-
-#slider figure img {
-  float: left;
-  width: 20%;
-}
-
-@keyframes slider {
-  0% {
-    left: 0;
-  }
-  20% {
-    left: 0;
-  }
-  25% {
-    left: -100%;
-  }
-  45% {
-    left: -100%;
-  }
-  50% {
-    left: -200%;
-  }
-  70% {
-    left: -200%;
-  }
-  75% {
-    left: -300%;
-  }
-  95% {
-    left: -300%;
-  }
-  100% {
-    left: -400%;
-  }
 }
